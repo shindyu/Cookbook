@@ -15,6 +15,11 @@ struct ContentView: View {
 struct MasterView: View {
     var body: some View {
         Form {
+            Section(header: Text("HeartBeat Sample")) {
+                Section {
+                    NavigationLink(destination: HeartBeatView()) { Text("HeartBeat♥️") }
+                }
+            }
             Section(header: Text("Mini Apps")
                         .padding(.top, 20)) {
                 Section {

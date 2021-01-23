@@ -10,6 +10,7 @@
 		176E7F1E25380CAF00602020 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 176E7F1D25380CAF00602020 /* Colors.xcassets */; };
 		176E7F2425380DB800602020 /* ColorManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 176E7F2325380DB800602020 /* ColorManager.swift */; };
 		176E7F2C253A13AB00602020 /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 176E7F2B253A13AA00602020 /* SplashView.swift */; };
+		51490C5E25BBD70500E23A61 /* HeartBeatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51490C5D25BBD70500E23A61 /* HeartBeatView.swift */; };
 		C409361A253456480082AF9F /* StereoDelayOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4093619253456470082AF9F /* StereoDelayOperation.swift */; };
 		C40936232534C8EC0082AF9F /* SmoothDelayOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = C40936222534C8EC0082AF9F /* SmoothDelayOperation.swift */; };
 		C4093629253502850082AF9F /* MultiTapDelay.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4093628253502850082AF9F /* MultiTapDelay.swift */; };
@@ -194,6 +195,7 @@
 		176E7F1D25380CAF00602020 /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
 		176E7F2325380DB800602020 /* ColorManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorManager.swift; sourceTree = "<group>"; };
 		176E7F2B253A13AA00602020 /* SplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
+		51490C5D25BBD70500E23A61 /* HeartBeatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeartBeatView.swift; sourceTree = "<group>"; };
 		C4093619253456470082AF9F /* StereoDelayOperation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StereoDelayOperation.swift; sourceTree = "<group>"; };
 		C40936222534C8EC0082AF9F /* SmoothDelayOperation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmoothDelayOperation.swift; sourceTree = "<group>"; };
 		C4093628253502850082AF9F /* MultiTapDelay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiTapDelay.swift; sourceTree = "<group>"; };
@@ -474,6 +476,7 @@
 				C446DEAD2528D9CA00138D0A /* VocalTract.swift */,
 				C446DE9F2528D9CA00138D0A /* VocalTractOperation.swift */,
 				C446DE802528D9CA00138D0A /* ZitaReverb.swift */,
+				51490C5D25BBD70500E23A61 /* HeartBeatView.swift */,
 			);
 			path = Recipes;
 			sourceTree = "<group>";
@@ -658,6 +661,7 @@
 				C409361A253456480082AF9F /* StereoDelayOperation.swift in Sources */,
 				C446DF252528D9CA00138D0A /* ADSRView.swift in Sources */,
 				C458783125354ADD006ECC88 /* Compressor.swift in Sources */,
+				51490C5E25BBD70500E23A61 /* HeartBeatView.swift in Sources */,
 				C446DEF12528D9CA00138D0A /* ChowningReverb.swift in Sources */,
 				C446DEFB2528D9CA00138D0A /* ToneFilter.swift in Sources */,
 				C446DEEF2528D9CA00138D0A /* FormantFilter.swift in Sources */,
@@ -938,7 +942,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"Cookbook/Preview Content\"";
-				DEVELOPMENT_TEAM = 9W69ZP8S5F;
+				DEVELOPMENT_TEAM = 653H53HHBU;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = Cookbook/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -960,7 +964,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"Cookbook/Preview Content\"";
-				DEVELOPMENT_TEAM = 9W69ZP8S5F;
+				DEVELOPMENT_TEAM = 653H53HHBU;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = Cookbook/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
